@@ -1,0 +1,1 @@
+function i(t,r,n,e){let o=u=>u*Math.PI/180,a=o(n-t),s=o(e-r),h=Math.sin(a/2)**2+Math.cos(o(t))*Math.cos(o(n))*Math.sin(s/2)**2;return 2*6371e3*Math.asin(Math.min(1,Math.sqrt(h)))}function M(t){if(t<=0)return`0 phút`;let r=Math.floor(t/60),n=t%60;return r===0?`${n} ph\xFAt`:n===0?`${r} gi\u1EDD`:`${r} gi\u1EDD ${n} ph\xFAt`}export{i as n,M as t};

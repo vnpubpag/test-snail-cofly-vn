@@ -1,0 +1,1 @@
+import{Ln as nI}from"./chunk-BvGjS7VN.js";var i=class e{transform(n){if(n==null)return`—`;let r=Math.round(n);return(r<0?`−`:``)+Math.abs(r).toLocaleString(`vi-VN`)+` ₫`}static ɵfac=function(r){return new(r||e)};static ɵpipe=nI({name:`money`,type:e,pure:!0})};export{i as t};
