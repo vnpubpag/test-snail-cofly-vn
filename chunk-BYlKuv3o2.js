@@ -1,1 +1,0 @@
-import{$ as OD,Xn as rn,un as g}from"./chunk-D27l6dLy.js";import{a as ce,s as z}from"./main-TTWURBEM.js";import{t as C}from"./chunk-DoOdMqio.js";var m=/^\/(staff|admin)\/tickets\/\d+/;function d(){let t=g(ce),c=C(t.events.pipe(rn(f=>f instanceof z)));return OD(()=>(c(),m.test(t.url)))}export{d as t};

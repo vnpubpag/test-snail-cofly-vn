@@ -1,0 +1,1 @@
+import{U as LD,Vn as on,ln as g}from"./chunk-CYJOVPiv.js";import{a as ce,s as z}from"./main-V3CPM6VT.js";import{t as C}from"./chunk-DWJVIwx9.js";var m=/^\/(staff|admin)\/tickets\/\d+/;function d(){let t=g(ce),c=C(t.events.pipe(on(f=>f instanceof z)));return LD(()=>(c(),m.test(t.url)))}export{d as t};
