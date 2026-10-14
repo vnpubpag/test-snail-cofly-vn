@@ -1,0 +1,1 @@
+import{Bn as m$1,O as HD,in as an}from"./chunk-D56UcSHO.js";import{A as T,a as ce,s as z}from"./main-NLHNC3NT.js";var m=/^\/(staff|admin)\/tickets\/\d+/;function d(){let t=m$1(ce),c=T(t.events.pipe(an(f=>f instanceof z)));return HD(()=>(c(),m.test(t.url)))}export{d as t};
