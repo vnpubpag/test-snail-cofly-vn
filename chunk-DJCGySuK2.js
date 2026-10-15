@@ -1,1 +1,0 @@
-function i(t){if(!t)return;let r=0,o=()=>{let e=document.getElementById(t);if(!e){++r<40&&setTimeout(o,50);return}let s=window.matchMedia?.(`(prefers-reduced-motion: reduce)`).matches;e.scrollIntoView({block:`start`,behavior:s?`auto`:`smooth`}),e.classList.add(`reveal`),setTimeout(()=>e.classList.remove(`reveal`),1800)};o()}export{i as t};

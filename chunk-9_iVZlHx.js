@@ -1,1 +1,0 @@
-import{Bn as m$1,c as BD,en as an}from"./chunk-BrdBylFb.js";import{D as T,a as ce,s as z}from"./main-PAFS75QO.js";var m=/^\/(staff|admin)\/tickets\/\d+/;function d(){let t=m$1(ce),c=T(t.events.pipe(an(f=>f instanceof z)));return BD(()=>(c(),m.test(t.url)))}export{d as t};
